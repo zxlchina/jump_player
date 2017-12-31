@@ -289,15 +289,4 @@ if __name__ == "__main__":
             print ("Touch Time:%f" % t)
         time.sleep(0.7)
 
-    sys.exit(0)
-
-    t = 100
-    if len(sys.argv) > 1:
-        t = int(sys.argv[1])
-
-    swipe(250, 250, 251, 251, t)
-    sys.exit(0)
-    for i in range(10):
-        touch(100, 100) 
-        time.sleep(0.1)
 
