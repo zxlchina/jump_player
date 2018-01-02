@@ -14,13 +14,13 @@
 ![](https://github.com/zxlchina/jump_player/blob/master/508CDF03-EAA6-4952-B387-61A95E577729.png)
 
 **2、边缘提取，从上往下扫描，得到顶点坐标**
-![Aaron Swartz](https://github.com/zxlchina/jump_player/blob/master/9E7D0C46-81B1-44F4-B808-F45FF99D6C9B.png)
+![](https://github.com/zxlchina/jump_player/blob/master/9E7D0C46-81B1-44F4-B808-F45FF99D6C9B.png)
 
 **3、对边缘做扩散，防止有小的缝隙，并得到顶点向下偏移一定值的种子坐标，如图红星所示**
-![Aaron Swartz](https://github.com/zxlchina/jump_player/blob/master/E96D519C-B379-4325-A0DA-7EA3754E9D3D.png)
+![](https://github.com/zxlchina/jump_player/blob/master/E96D519C-B379-4325-A0DA-7EA3754E9D3D.png)
 
 **4、以种子点为基础，用漫水法得到连通区域，并计算区域的中心点，为目标点，如图蓝星所示**
-![Aaron Swartz](https://raw.githubusercontent.com/zxlchina/jump_player/master/100B1AE6-C50E-4A9F-B8DE-ED9692552822.png)
+![](https://raw.githubusercontent.com/zxlchina/jump_player/master/100B1AE6-C50E-4A9F-B8DE-ED9692552822.png)
 
 # 运行环境
 * python3.5
